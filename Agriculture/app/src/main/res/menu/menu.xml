@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/menu_home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:title="@string/menu_weather"
+        android:id="@+id/weather"
+        android:icon="@drawable/sun"
+        />
+    <item
+        android:title="ADVISORIES"
+        android:id="@+id/advisories"
+        android:icon="@drawable/ic_advi"/>
+    <item
+        android:id="@+id/market_mandi"
+        android:title="@string/MARKET_or_MANDI"
+        android:icon="@drawable/ic_mandi"/>
+    <item
+        android:title="Trainings"
+        android:id="@+id/training"
+        android:icon="@mipmap/training"/>
+    <item
+        android:id="@+id/nav_update"
+        android:title="@string/LIVEUPDATES"
+        android:icon="@drawable/ic_update"/>
+    <item
+        android:title="FAQ"
+        android:id="@+id/faq"
+        android:icon="@drawable/faq"/>
+    <item
+        android:title="HELP LINE"
+        android:id="@+id/helpline"
+        android:icon="@drawable/helpline"/>
+    <item
+        android:id="@+id/signout"
+        android:title="LOG OUT"
+        android:icon="@drawable/ic_signout"/>
+</menu>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Authentication">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="Login"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/umail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/ic_mail"
+        android:fontFamily="@font/adamina"
+        android:hint="Mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/upass"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/ic_lock"
+        android:fontFamily="@font/adamina"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="end"
+        android:onClick="reset"
+        android:text="Forgot Password ?"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:onClick="login"
+        android:text="Login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="- - - - - - - - - or - - - - - - - - -"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Not yet Registered ? Click Here"
+       android:gravity="center"
+       android:fontFamily="@font/adamina"
+       android:textSize="24sp"
+       android:layout_marginTop="21dp"
+       android:onClick="personRegister"/>
+</LinearLayout>
+</layout>
